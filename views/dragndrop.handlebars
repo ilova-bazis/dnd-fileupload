@@ -1,0 +1,8 @@
+<h3>Drag n Drop</h3>
+{{#if error}} <span>{{error}}</span>{{/if}}
+
+<form action="/upload" class="dropzone" method="POST">
+  <div class="fallback">
+    <input name="file" type="file" multiple />
+  </div>
+</form>
